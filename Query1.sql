@@ -1,0 +1,5 @@
+CREATE TABLE user_accounts (
+id BIGINT AUTO_INCREMENT PRIMARY KEY,
+login_id VARCHAR(100) NOT NULL UNIQUE,
+password_hash VARCHAR(255) NOT NULL
+);bookdb
